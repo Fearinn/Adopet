@@ -92,7 +92,7 @@
 }
 
 .animais__icone {
-    background: url("../../../imagens/ícone\ mensagem.svg");
+    background: url("/imagens/ícone\ mensagem.svg");
     height: 100%;
     width: 1.125rem;
 }

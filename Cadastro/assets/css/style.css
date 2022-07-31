@@ -45,7 +45,7 @@ body {
 
 .fundo-patas {
     align-self: end;
-    background: url("../../../imagens/Patas.svg") top right / 100% 100% no-repeat;
+    background: url("/imagens/Patas.svg") top right / 100% 100% no-repeat;
     height: 15rem;
     margin: 0;
     width: 10rem;
@@ -59,7 +59,7 @@ body {
 .fundo-meio {
     align-self: start;
     justify-self: center;
-    background: url("../../../imagens/Forma\ 2inverso.svg") center right / 100% 100% no-repeat;
+    background: url("/imagens/Forma\ 2inverso.svg") center right / 100% 100% no-repeat;
     height: 26rem;
     position: absolute;
     top: 23rem;
