@@ -16,7 +16,7 @@ export function verSenha() {
             }
             else {
                 olhoSenha.style.opacity = '0.3'
-                olhoSenha.style.background = 'url("/imagens/icons8-eye-24.svg") center / 100% no-repeat'
+                olhoSenha.style.background = 'url("imagens/icons8-eye-24.svg") center / 100% no-repeat'
                 senhar.type = 'password'
             }
         })
@@ -27,11 +27,11 @@ export function verSenha() {
             if (confirmaSenha.type == 'password') {
                 confirmaSenha.type = 'text'
                 olhoConfirmarSenha.style.opacity = '1'
-                olhoConfirmarSenha.style.background = 'url("/imagens/Vector.svg") center / 100% no-repeat'
+                olhoConfirmarSenha.style.background = 'url("imagens/Vector.svg") center / 100% no-repeat'
             }
             else {
                 olhoConfirmarSenha.style.opacity = '0.3'
-                olhoConfirmarSenha.style.background = 'url("/imagens/icons8-eye-24.svg") center / 100% no-repeat'
+                olhoConfirmarSenha.style.background = 'url("imagens/icons8-eye-24.svg") center / 100% no-repeat'
                 confirmaSenha.type = 'password'
             }
         })
