@@ -41,18 +41,18 @@
     width: calc(100% - 2rem);
 }
 
-.formulario__foto__arquivo {
-    height: 100%;
-    opacity: 0;
-    width: 100%;
-}
-
 .formulario__foto {
     background: url("/imagens/Usuário.svg") center / cover no-repeat, var(--fundo-principal);
     border-radius: 100%;
-    cursor: pointer;
     height: 5rem;
     width: 5rem;
+}
+
+.formulario__foto__arquivo {
+    cursor: pointer;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
 }
 
 .formulario__instrucao-foto {
