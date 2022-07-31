@@ -1,0 +1,34 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: calc(360px - 4rem);
+    padding: 1.5rem 2.5rem 2.5rem 1.5rem;
+    width: calc(100vw - 4rem);
+}
+
+.menu__logo {
+    display: none;
+    height: 2rem;;
+    width: 8rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 12rem;
+}
+
+.menu__icone {
+    width: 3rem;
+    height: 3rem;
+}
+
+.menu__icone--casa {
+    background: url("/imagens/Casa.svg") center no-repeat;
+}
+
+.menu__icone--mensagem {
+    background: url("/imagens/Mensagens.svg") center no-repeat;
+}

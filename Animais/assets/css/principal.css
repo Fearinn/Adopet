@@ -1,0 +1,102 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.2rem 0 1rem 0;
+    text-align: center;
+    min-width: 360px;
+}
+
+
+.texto-principal {
+    display: inline-block;
+    color: var(--fonte-principal);
+    margin: 0;
+    text-align: center;
+    width: 15rem;
+}
+
+
+.animais {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    min-height: 40rem;
+}
+
+.animais__card {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background: var(--fundo-secundario);
+    height: 12.25rem;
+    margin-bottom: 1rem;
+    min-width: 21rem;
+    width: 23.250rem;
+}
+
+.animais__descricao {
+    width: 9.1rem;
+}
+
+.animais__dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9.125rem;
+    margin-right: 2rem;
+    width: 8.75rem;
+}
+
+.animais__nome {
+    color: var(--fonte-principal);
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.animais__imagem {
+    margin: 0 1rem 0 1.5rem;
+}
+
+.animais__caracteristicas {
+    color: var(--fonte-secundaria);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.animais__contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.animais__mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1.125rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.animais__local {
+    color: var(--fonte-secundaria);
+    font-size: 0.75rem;
+    margin: 0;
+    text-align: left;
+}
+
+.animais__icone {
+    background: url("/imagens/ícone\ mensagem.svg");
+    height: 100%;
+    width: 1.125rem;
+}
+.animais__responsavel {
+    color: var(--fonte-secundaria);
+    font-size: 0.625rem;
+}

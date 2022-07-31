@@ -1,0 +1,44 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: calc(360px - 4rem);
+    padding: 1.5rem 2.5rem 2.5rem 1.5rem;
+    width: calc(100vw - 4rem);
+}
+
+.menu__logo {
+    display: none;
+    height: 2rem;;
+    width: 8rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 13.5rem;
+}
+
+.menu__icone {
+    width: 3rem;
+    height: 3rem;
+}
+
+.menu__icone--casa {
+    background: url("/imagens/Casa.svg") center no-repeat;
+}
+
+.menu__icone--mensagem {
+    background: url("/imagens/Mensagens.svg") center no-repeat;
+}
+
+.cabecalho__perfil {
+    display: none;
+    background: url("/imagens/Usuário.svg") center / cover no-repeat, var(--fundo-usuario);
+    border: 1px solid var(--borda-usuario);
+    border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    z-index: 2;
+}

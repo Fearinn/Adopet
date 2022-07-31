@@ -1,0 +1,103 @@
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--fonte-principal);
+    margin: 3.5rem 0 5rem 0;
+    text-align: center;
+    min-width: 360px;
+}
+
+.principal__logo {
+    height: 2.15rem;
+    width: 8.9rem;
+}
+
+.texto-principal {
+    display: inline-block;
+    color: var(--fonte-principal);
+    margin: 1.5rem 0 0 0;
+    text-align: center;
+    width: 15rem;
+}
+
+ /* formulario */
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 85%;
+    max-width: 54rem;
+}
+
+.formulario__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.formulario__label {
+    color: var(--fonte-label);
+    margin-bottom: 0.5rem;
+}
+.formulario__input {
+    background-color: var(--fundo-secundario);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario__input::placeholder {
+    color: var(--fonte-placeholder);
+}
+
+.formulario__input:focus {
+    border: 1px solid var(--ativo);
+    outline: none;
+}
+
+.formulario__input--invalido {
+    border: 1px solid var(--erro);
+}
+
+.formulario__olho-senha {
+    align-self: end;
+    background: url("../imagens/icons8-eye-24.svg") center / 100% no-repeat;
+    border: none;
+    height: 1.3rem;
+    margin-top: 2.7rem;
+    margin-right: 0.5rem;
+    opacity: 0.3;
+    position: absolute;
+    width: 1.5rem;
+}
+
+.formulario__botao {
+    background-color: var(--fundo-botao-principal);
+    border: none;
+    border-radius: 6px;
+    color: var(--fonte-botao-principal);
+    line-height: 3rem;
+    width: 12rem;
+}
+
+.formulario__botao:hover, .formulario__botao:active {
+    background-color: var(--fundo-botao-hover);
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.formulario__erro {
+    color: var(--erro);
+}
+

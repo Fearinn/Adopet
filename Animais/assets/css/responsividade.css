@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+    .fundo-superior {
+        height: 27.175rem;
+        width: 35rem;
+    }
+
+    .cabecalho {
+        padding-top: 2.5rem;
+    }
+
+    .menu {
+        width: 25rem;
+    }
+
+    .menu__logo {
+        display: initial;
+    }
+
+    .cabecalho__perfil {
+        margin-right: 3rem;
+    }
+    .principal {
+        margin-top: 10rem;
+    }
+
+    .texto-principal {
+        font-size: 1.125rem;
+        width: 25.875rem;
+    }
+    .animais {
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 2rem 2rem 0 0;
+    }
+    .animais__card {
+       margin-left: 2rem;
+       max-width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .principal {
+        margin-top: 5rem;
+    }
+    .fundo-meio {
+        display: initial;
+        height: 41.5rem;
+        top: 15.5rem;
+        width: 8.375rem;
+    }
+    .animais {
+        margin: 2rem 9rem 0 10rem;
+    }
+    .animais__card {
+        margin-left: 1rem;
+        margin-bottom: 2.5rem;
+        max-width: calc(33% - 22rem);
+    }
+    .rodape {
+        height: 5rem;
+    }
+}

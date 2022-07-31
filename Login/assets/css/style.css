@@ -1,0 +1,66 @@
+:root {
+    --ativo: #3772FF;
+    --erro: red;
+    --fonte-label: black;
+    --fonte-placeholder: #BCBCBC;
+    --fonte-botao-principal: white;
+    --fonte-principal: #3772FF;
+    --fonte-secundaria: #FC7071;
+    --fonte-rodape: white;
+    --fundo-botao-principal: #FC7071;
+    --fundo-botao-hover: #FF9D9E;
+    --fundo-principal: white;
+    --fundo-secundario: #F7F7F7;
+    --fundo-rodape: #36D6AD;
+    --fundo-usuario: white;
+
+    font-family: 'Poppins', sans-serif;
+    min-width: 360px;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: var(--fundo-principal);
+}
+
+.fundos {
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+.fundo-superior {
+    align-self: start;
+    background: url("/imagens/Forma\ 1\ \(1\).svg") top left / cover no-repeat;
+    height: 18.5rem;
+    margin: 0;
+    width: 22rem;
+}
+
+.fundo-patas {
+    align-self: end;
+    background: url("/imagens/Patas.svg") top right / 100% 100% no-repeat;
+    height: 15rem;
+    margin: 0;
+    width: 10rem;
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    z-index: 1;
+}
+
+.fundo-meio {
+    align-self: start;
+    justify-self: center;
+    background: url("../imagens/Forma\ 2inverso.svg") center right / 100% 100% no-repeat;
+    height: 26rem;
+    position: absolute;
+    top: 23rem;
+    width: 5rem;
+}

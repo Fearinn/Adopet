@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px) {
+    .principal {
+        margin-top: 10rem;
+    }
+
+    .fundo-superior {
+        height: 27.175rem;
+        width: 35rem;
+    }
+
+    .fundo-meio {
+        display: initial;
+        height: 41.5rem;
+        top: 16.75rem;
+        width: 8.375rem;
+    }
+
+    .cabecalho {
+        padding-top: 2.5rem;
+    }
+
+    .menu {
+        width: 25rem;
+    }
+
+    .menu__logo {
+        display: initial;
+    }
+
+    .principal__logo {
+        height: 3.875rem;
+    }
+
+    .titulo {
+        margin: 1.5rem 0;
+    }
+
+    .texto-principal {
+        font-size: 1.125rem;
+        width: 21.5rem;
+    }
+
+    .principal__link {
+        height: 3rem;
+    }
+    .principal__ilustracao {
+        height: 26.375rem;
+        top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .principal {
+        margin-top: 2rem;
+    }
+    .fundo-meio {
+        top: 11.25rem;
+    }
+
+    .principal__logo {
+        height: 4rem;
+    }
+
+    .texto-principal {
+        width: 30.5rem;
+    }
+
+    .principal__ilustracao {
+        height: 26.95rem;
+    }
+    .rodape {
+        height: 5rem;
+    }
+}

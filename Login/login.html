@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/cabecalho.css" rel="stylesheet">
+    <link href="assets/css/principal.css" rel="stylesheet">
+    <link href="assets/css/rodape.css" rel="stylesheet">
+    <link href="assets/css/responsividade.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fundos">
+        <div class="fundo-superior"></div>
+        <div class="fundo-patas"></div>
+        <div class="fundo-meio"></div>
+    </div>
+    <header class="cabecalho">
+        <nav class="menu">
+            <img src="../imagens/Logo.svg" alt="logo Adopet" class="menu__logo">
+            <a href="../Principal/index.html" class="menu__icone menu__icone--casa"></a>
+            <a href="../Contato/contato.html" class="menu__icone menu__icone--mensagem"></a>
+        </nav>
+        <a href="../Perfil/perfil.html" class="cabecalho__perfil"></a>
+    </header>
+    <nav class="menu">
+        <a href="../Principal/index.html" class="cabecalho__icone cabecalho__icone--casa"></a>
+        <a href="../Contato/contato.html" class="cabecalho__icone cabecalho__icone--mensagem"></a>
+    </nav>
+    </header>
+    <main class="principal">
+        <img class="principal__logo" src="../imagens/LogoAzul.svg">
+        <p class="texto-principal">
+            Já tem uma conta? Faça seu login
+        </p>
+        <form data-tag="form" action="/Animais/animais.html" class="formulario" novalidate>
+            <div class='formulario__container'>
+                <label for="email" class="formulario__label">Email</label>
+                <input data-tag="input" type="email" id="email" class="formulario__input" placeholder="Insira seu email"
+                    data-tipo="email" required>
+                <span class="formulario__erro"></span>
+            </div>
+            <div class='formulario__container'>
+                <label for="senha" class="formulario__label">Senha</label>
+                <input data-tag="input" type="password" id="senha" class="formulario__input" data-tipo="senha"
+                    placeholder="Insira sua senha" required>
+                <span class="formulario__olho-senha" data-icone="olho-senha"></span>
+                <span class="formulario__erro"></span>
+            </div>
+            <a href="#" class="formulario__esqueci-senha">Esqueci a senha</a>
+            <button type="submit" class="formulario__botao">Entrar</button>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Matheus Gomes (projeto Alura)</p>
+    </footer>
+</body>
+<script src="/js/main.js" type="module"></script>
+
+</html>
