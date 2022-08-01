@@ -8,6 +8,7 @@
 }
 
 .menu__logo {
+    background: url("/imagens/Logo.svg") center / 100% no-repeat;
     display: none;
     height: 2rem;;
     width: 8rem;

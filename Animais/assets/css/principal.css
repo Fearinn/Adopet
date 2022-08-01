@@ -8,7 +8,7 @@
 }
 
 
-.texto-principal {
+.principal__texto {
     display: inline-block;
     color: var(--fonte-principal);
     margin: 0;

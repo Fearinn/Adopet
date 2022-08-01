@@ -8,7 +8,7 @@
     min-width: 360px;
 }
 
-.titulo {
+.principal__titulo {
     font-weight: 500;
     font-size: 1.625rem;
     margin-top: 1.5rem;
@@ -19,7 +19,7 @@
     height: 2.875rem;
 }
 
-.texto-principal {
+.principal__texto {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 1.5rem;

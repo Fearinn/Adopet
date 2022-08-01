@@ -37,7 +37,7 @@
         margin-top: 10rem;
     }
 
-    .texto-principal {
+    .principal__texto {
         font-size: 1.125rem;
         width: 25.875rem;
     }
@@ -63,7 +63,7 @@
         height: 4rem;
     }
 
-    .texto-principal {
+    .principal__texto {
         width: 30.5rem;
     }
 

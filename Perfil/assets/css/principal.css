@@ -8,12 +8,7 @@
     min-width: 360px;
 }
 
-.principal__logo {
-    height: 2.15rem;
-    width: 8.9rem;
-}
-
-.texto-principal {
+.principal__texto {
     display: inline-block;
     color: var(--fonte-principal);
     margin: 1.5rem 0 0 0;
