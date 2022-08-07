@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="../normalize.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/cabecalho.css" rel="stylesheet">
     <link href="assets/css/principal.css" rel="stylesheet">
@@ -25,44 +25,44 @@
     </div>
     <header class="cabecalho">
         <nav class="menu">
-            <a aria-label="link para a página de animais" href="../Animais/animais.html" class="menu__logo"></a>
-            <a href="../index.html" aria-label="link para a página inicial" class="menu__icone menu__icone--casa"></a>
-            <a href="../Contato/contato.html" aria-label="link para a página de contato"
+            <a aria-label="Página de animais" href="../Animais/animais.html" class="menu__logo"></a>
+            <a href="../index.html" aria-label="Página inicial" class="menu__icone menu__icone--casa"></a>
+            <a href="../Contato/contato.html" aria-label="Página de contato"
                 class="menu__icone menu__icone--mensagem"></a>
         </nav>
-        <a aria-label="imagem e link para o perfil" href="../Perfil/perfil.html" class="cabecalho__perfil"
-        data-tag="ancoraPerfil"></a>
+        <a aria-label="Página de perfil" href="../Perfil/perfil.html" class="cabecalho__perfil"
+            data-tag="ancoraPerfil"></a>
     </header>
     
     <main class="principal">
-        <p class="principal__texto">
+        <h1 class="principal__titulo">
             Envie uma mensagem para a pessoa ou instituição que está cuidando do animal
-        </p>
+        </h1>
         <form data-tag="form" action="/Animais/animais.html" class="formulario" novalidate>
             <div class="formulario__container">
                 <label for="nome" class="formulario__label">Nome</label>
                 <input data-tag="input" data-tipo="nome" type="text" id="nome" class="formulario__input"
                     placeholder="Insira seu nome completo" required>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
             </div>
             <div class="formulario__container">
                 <label for="telefone" class="formulario__label">Telefone</label>
                 <input data-tag="input" data-tipo="telefone" type="tel" id="telefone" class="formulario__input"
                     placeholder="Insira seu telefone e/ou WhatsApp" pattern="[^A-Za-z]+" required>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
             </div>
             <div class="formulario__container">
                 <label for="nome-animal" class="formulario__label">Nome do animal</label>
                 <input data-tag="input" data-tipo="animal" type="text" id="nome-animal" class="formulario__input"
                     placeholder="Por qual animal você se interessou?" required>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
             </div>
             <div class="formulario__container">
                 <label for="mensagem" class="formulario__label">Mensagem</label>
                 <textarea data-tag="input" data-tipo="mensagem" id="mensagem"
                     class="formulario__input formulario__textarea" placeholder="Escreva sua mensagem"
                     required></textarea>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
             </div>
             <button type="submit" class="formulario__botao">Enviar</button>
         </form>

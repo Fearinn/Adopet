@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="../normalize.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/cabecalho.css" rel="stylesheet">
     <link href="assets/css/principal.css" rel="stylesheet">
@@ -26,45 +26,43 @@
     </div>
     <header class="cabecalho">
         <nav class="menu">
-            <a aria-label="link para a página de animais" href="../Animais/animais.html" class="menu__logo"></a>
-            <a href="../index.html" aria-label="link para a página inicial" class="menu__icone menu__icone--casa"></a>
-            <a href="../Contato/contato.html" aria-label="link para a página de contato"
+            <a aria-label="Página de animais" href="../Animais/animais.html" class="menu__logo"></a>
+            <a href="../index.html" aria-label="Página inicial" class="menu__icone menu__icone--casa"></a>
+            <a href="../Contato/contato.html" aria-label="Página de contato"
                 class="menu__icone menu__icone--mensagem"></a>
         </nav>
     </header>
 
     <main class="principal">
-        <img class="principal__logo" src="../imagens/LogoAzul.svg">
-        <p class="principal__texto">
-            Ainda não tem cadastro?
-            <br><br>
-            Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
-        </p>
+        <img class="principal__logo" alt src="../imagens/LogoAzul.svg">
+        <h1 class="principal__titulo">
+            Ainda não tem cadastro? Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+        </h1>
         <form data-tag="form" action="/Animais/animais.html" class="formulario" novalidate>
             <div class="formulario__container">
                 <label for="email" class="formulario__label">Email</label>
                 <input data-tag="input" type="email" id="email" class="formulario__input" placeholder="Escolha seu melhor email"
                     data-tipo="email" required>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
             </div>
 
             <div class="formulario__container">
-                <label for="nome" class="formulario__label">Nome</label>
+                <label for="nome" class="formulario__label">Nome completo</label>
                 <input data-tag="input" type="text" id="nome" class="formulario__input" placeholder="Digite seu nome completo"
                     data-tipo="nome" required>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
             </div>
 
             <div class="formulario__container">
                 <label for="senha" class="formulario__label">Senha</label>
                 <input data-tag="input" id="senha" type="password" class="formulario__input" placeholder="Crie uma senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,12}$" data-tipo="senha" required>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
                 <span class="formulario__olho-senha"  data-icone="olho-senha"></span>
             </div>
             <div class="formulario__container">
                 <label for="confirmar-senha" class="formulario__label">Confirmar senha</label>
                 <input data-tag="input" id="confirmar-senha" type="password" class="formulario__input" placeholder="Repita a senha criada acima" novalidate data-tipo="confirmarSenha" required>
-                <span class="formulario__erro"></span>
+                <span role="alert" class="formulario__erro"></span>
                 <span class="formulario__olho-senha" data-icone="olho-confirmarSenha"></span>
             </div>
             <button type="submit" class="formulario__botao">Cadastrar</button>

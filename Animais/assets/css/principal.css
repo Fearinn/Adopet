@@ -8,8 +8,7 @@
 }
 
 
-.principal__texto {
-    display: inline-block;
+.principal__titulo {
     color: var(--fonte-principal);
     margin: 0;
     text-align: center;

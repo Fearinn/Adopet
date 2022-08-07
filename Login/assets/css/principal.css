@@ -13,7 +13,7 @@
     width: 8.9rem;
 }
 
-.principal__texto {
+.principal__titulo {
     display: inline-block;
     color: var(--fonte-principal);
     margin: 1.5rem 0 0 0;
