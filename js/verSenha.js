@@ -3,21 +3,21 @@ const olhoSenha = document.querySelector('[data-icone="olho-senha"]')
 
 const olhoConfirmarSenha = document.querySelector('[data-icone="olho-confirmarSenha"]')
 
-const senhar = document.querySelector("[data-tipo='senha']")
+const senha = document.querySelector("[data-tipo='senha']")
 
 const confirmaSenha = document.querySelector("[data-tipo='confirmarSenha']")
 
 if (olhoSenha) {
 olhoSenha.addEventListener('click', () => {
-    if (senhar.type == 'password') {
-        senhar.type = 'text'
+    if (senha.type == 'password') {
+        senha.type = 'text'
         olhoSenha.style.opacity = '1'
         olhoSenha.style.background = 'url("/imagens/ocultarsenha.svg") center / 100% no-repeat'
     } 
     else {
         olhoSenha.style.opacity = '0.3'
         olhoSenha.style.background = 'url("/imagens/icons8-eye-24.svg") center / 100% no-repeat'
-        senhar.type = 'password'
+        senha.type = 'password'
     }
 })
 }
