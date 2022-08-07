@@ -57,13 +57,13 @@
                 <label for="senha" class="formulario__label">Senha</label>
                 <input data-tag="input" id="senha" type="password" class="formulario__input" placeholder="Crie uma senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,12}$" data-tipo="senha" required>
                 <span role="alert" class="formulario__erro"></span>
-                <span class="formulario__olho-senha"  data-icone="olho-senha"></span>
+                <span aria-hidden="true" class="formulario__olho-senha"  data-icone="olho-senha"></span>
             </div>
             <div class="formulario__container">
                 <label for="confirmar-senha" class="formulario__label">Confirmar senha</label>
                 <input data-tag="input" id="confirmar-senha" type="password" class="formulario__input" placeholder="Repita a senha criada acima" novalidate data-tipo="confirmarSenha" required>
                 <span role="alert" class="formulario__erro"></span>
-                <span class="formulario__olho-senha" data-icone="olho-confirmarSenha"></span>
+                <span aria-hidden="true" class="formulario__olho-senha" data-icone="olho-confirmarSenha"></span>
             </div>
             <button type="submit" class="formulario__botao">Cadastrar</button>
         </form>
