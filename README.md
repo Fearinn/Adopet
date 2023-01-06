@@ -2,7 +2,7 @@
 
 Project from the [Alura Challenge Front-End (4th edition)](https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br).
 
-# 🎯 Goals
+## 🎯 Goals
 
 - Creating a website for pets adoption, based in a Figma layout;
 - Learning and consolidating basic knowledge in HTML, CSS, JS and web acessibility.
