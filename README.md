@@ -1,14 +1,17 @@
-# Adopet - Alura Challenge
+#  🐈 Adopet - Alura Challenge
 
-Projeto feito como parte do [Alura Challenge Front-End 4ª edição](https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br).
+Project from the [Alura Challenge Front-End (4th edition)](https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br).
 
-# Objetivos
+# 🎯 Goals
 
-- Criar um site de adoção de animais baseado num Figma, com múltiplas páginas.
-- Aquisição e fixação de conhecimento básico em HTML, CSS e JS.
-- Adicional: aplicação de boas práticas de acessibilidade.
+- Creating a website for pets adoption, based in a Figma layout;
+- Learning and consolidating basic knowledge in HTML, CSS, JS and web acessibility.
 
-# Possíveis melhorias
+## ⚙️ Features 
+
+- Form validation.
+
+## 🧠 Possíveis melhorias
 
 - Migração para React e JSX;
 - Uso de outra alternativa para estilização;
